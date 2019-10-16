@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    link(rel="stylesheet" href="style.css")
+  body
+    #main
+      img#modele(src="puzzle_pistolet.png")
+      #svg-container
+      p#path
+      h1 Instructions
+      ul
+        li Cliquer sur un segment pour le sélectionner
+        li Utiliser les flèches droite/gauche pour sélectionner le segment suivant/précédent
+        li Appuyer sur la touche espace pour pivoter le segment sélectionné
+      p La suite des directions correspondant aux segments est affichée en dessous de l'image
+    script(src="svg.js")
+    script(src="script.js")

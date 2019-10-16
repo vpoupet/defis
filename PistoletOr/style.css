@@ -1,0 +1,30 @@
+#main {
+  position: relative;
+  width: 100vh;
+}
+
+#svg-container {
+  width: 100vh;
+  padding: 0;
+}
+
+#modele {
+  opacity: 0.5;
+  position: absolute;
+  width: 64vh;
+  height: 32vh;
+  top: 33vh;
+  left: 15vh;
+  z-index: -1;
+}
+
+rect {
+  opacity: 0.3;
+}
+.selected > rect, rect:hover {
+  opacity: 1;
+}
+
+#path {
+  font-family: monospace;
+}
